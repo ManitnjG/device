@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The nusantara-X Project
+# Copyright (C) 2020 The superior-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common nusantara-X stuff
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common superior-X stuff
+$(call inherit-product, vendor/superior/config/common_full_phone.mk)
 
 
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -19,7 +19,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_X01BD
+PRODUCT_NAME := superior_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
