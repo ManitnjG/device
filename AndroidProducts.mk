@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_X01BD.mk
+    $(LOCAL_DIR)/statix_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_X01BD-user \
-    nad_X01BD-userdebug
+    statix_X01BD-user \
+  statix_X01BD-userdebug
