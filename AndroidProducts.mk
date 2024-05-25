@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_X01BD.mk
+    $(LOCAL_DIR)/twrp_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_X01BD-eng \
-    evolution_X01BD-user \
-    evolution_X01BD-userdebug
+    twrp_X01BD-eng \
+    twrp_X01BD-user \
+    twrp_X01BD-userdebug
